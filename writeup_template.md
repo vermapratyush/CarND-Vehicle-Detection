@@ -10,8 +10,7 @@ The goals / steps of this project are the following:
 * Estimate a bounding box for vehicles detected.
 
 [//]: # (Image References)
-[image1]: ./output_images/hog_vehicle.png
-[image2]: ./output_images/hog_non_vehicle.png
+[image1]: ./output_images/hog.png
 [image3]: ./output_images/grid_example.png
 [image4]: ./output_images/feature.png
 [image5]: ./output_images/sample_heat.png
@@ -34,9 +33,7 @@ The code for this step is in the 3rd cell of the IPython notebook. Here, I have 
 
 I started by reading in all the `vehicle` and `non-vehicle` images.  Here is an example of one of each of the `vehicle` and `non-vehicle` classes:
 
-![HOG Image of Vehicle][image1]
-
-![HOG Image of Non Vehicle][image2]
+![HOG Image of Vehicle and non Vechicle][image1]
 
 ####2. Explain how you settled on your final choice of HOG parameters.
 
