@@ -95,3 +95,4 @@ I think the pipeline is decent as such. However, some of the technique involved 
 
 Another aspect that can be largely improved is averaging out the results from previous frame(s) onto the newer frame. Constraints like the centroid of the box and dimension of the box should be similar. In the current solution, I have used the previous frame but previous n frames can be used for that purpose.
 
+The grid search region can selected smartly as the video is from a right lane driving country. Hence, we can remove the false positives which are detected on the right side of the barrier. 
