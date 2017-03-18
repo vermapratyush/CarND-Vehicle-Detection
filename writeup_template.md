@@ -46,6 +46,8 @@ I then explored some color spaces and the best result was obtained from `YUV` co
 I trained a linear SVM in cell 8. The code uses `sklearn.svm` for the SVM classifier.
 The features used for each image is `hog`, `bin_spatial` and `color_histogram`. Standard features have been used as those provided the best features.
 
+I have not made much changes to the code that was provided in the video lecture.
+
 ###Sliding Window Search
 
 ####1. Describe how (and identify where in your code) you implemented a sliding window search.  How did you decide what scales to search and how much to overlap windows?
