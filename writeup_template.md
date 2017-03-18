@@ -51,7 +51,8 @@ The features used for each image is `hog`, `bin_spatial` and `color_histogram`. 
 ####1. Describe how (and identify where in your code) you implemented a sliding window search.  How did you decide what scales to search and how much to overlap windows?
 
 In cell 10, the function `process_image` contains the crux of the sliding window search. I have used boxes of three sizes [60, 60], [96, 96], [128, 96]
-Here I have made use of the fact that out grid search needs to be extensive (more overlap) for larger size boxes as compared to smaller images. The search range of small and large grid sizes also varies. If the car is far away, it will be somewhere in between half and 3 quarter of the y axis.
+
+Here I have made use of the fact that the grid search needs to be extensive (more overlap) for larger size boxes as compared to smaller images. The search range of small and large grid sizes also varies. If the car is far away, it will be somewhere in between half and 3 quarter of the y axis.
 
 ![An example of the 60x60 grid search region][image3]
 
